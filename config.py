@@ -6,7 +6,7 @@ __C = edict()
 cfg = __C
 
 # Path to concept_vqa
-__C.ROOT_DIR = '/home/lyt/code/concept_vqa'
+__C.ROOT_DIR = 'concept_vqa' # '/home/lyt/code/vqa-concept'
 
 # Path to data
 __C.DATA_DIR = '{}/dataTVQA'.format(__C.ROOT_DIR)
@@ -18,7 +18,7 @@ __C.FEA_DIR = '{}/image-feature/bottomup'.format(__C.DATA_DIR)
 __C.OCR_DIR = '{}/image-feature/ocr'.format(__C.DATA_DIR)
 
 # Path to TextVQA
-__C.TVQA_DIR = '/home/data3/lyt/TextVQA'
+__C.TVQA_DIR = 'TextVQA' # '/home/data/lyt/TextVQA'
 
 # Path to TextVQA images
 __C.IMAGE_TRAIN_DIR = '{}/train_images'.format(__C.TVQA_DIR)
